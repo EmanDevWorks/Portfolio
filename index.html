@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="/img/code-solid.svg" type="image/x-icon">
+    <title>Eman Portfolio Website</title>
+    <meta name="description" content="Eman Portfolio Website">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+
+<body>    <header class="header">
+       <div class="logo">
+          <img src="img/mylogo.png" alt="a logo of the developer">
+     </div>
+     <button class="nav-toggle" aria-label="toggle navigation">
+         <span class="hamburger"></span>
+     </button>
+     <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__item"><a href = "#home" class="nav__link"> Home</a> </li>
+            <li class="nav__item"><a href="#services" class="nav__link"> Services</a> </li>
+            <li class="nav__item"><a href="#about" class="nav__link"> About me</a> </li>
+            <li class="nav__item"> <a href="#work" class="nav__link">My Work</a></li>
+        </ul>
+    </nav>
+    </header>
+ 
+      <!--      Introduction                     -->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hi, I am <strong>Eman Ibrahim</strong>
+        </h1>
+
+        <p class="section__subtitle section__subtitle--intro">
+           Front-end Developer
+        </p>
+        <img src="img/intro.jpg" alt="" class="intro__img">  
+    </section>
+   
+
+      <!-- My Services-->
+
+    <section class="my-services" id="services">
+        <h2 class="section__title section__title--services">What I do</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Web Development</h3>
+                <p> I am a senior computer science student with a strong interest in web development. I have worked on various projects, using HTML, CSS, and JavaScript to build interactive and user-friendly web applications. My experience includes developing games, calculators, and landing pages that are both functional and visually appealing. </p>
+            </div>  <!-- close service-->
+            <div class="service">
+                <h3> Learning and Growth</h3>
+                As a lifelong learner, I am dedicated to expanding my knowledge in web development and related fields. I am particularly interested in exploring more advanced technologies and frameworks. My approach involves experimenting with new ideas and applying them to small projects, which helps deepen my understanding and keeps me engaged.</p>
+            </div>  <!-- close service-->
+        </div> <!-- close services-->
+        <a href="#work" class="btn">Work</a>
+    </section>
+
+
+
+
+
+
+        <!-- About Me-->
+
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about"> Who I am </h2>
+        <p class="section__subtitle section__subtitle--about">Developer Based In Ethiopia</p>
+
+        <div class="about-me__body">
+            <p>I am a senior Computer Science student at The University Of The People, passionate about using technology to solve real-world problems. My academic journey has equipped me with a strong foundation in algorithms, data structures, operating systems, and software engineering. I have hands-on experience in both front-end and back-end web development, with proficiency in HTML, CSS, JavaScript, and Python. </p>
+
+            <p> I am a self-motivated individual with a strong work ethic and a passion for learning. I am always eager to take on new challenges and learn new technologies. I am currently seeking opportunities to work as a Front-end developer, where I can leverage my skills to create innovative solutions and make a positive impact. 
+            </p>
+        </div>
+        <img src="img/aboutme-img.avif" alt="" class="about-me__img">
+    </section>
+
+
+    <!--work -->
+    <section class="my-work" id="work">
+        <h2 class="section__title"> My Work</h2>
+        <p class="section__subtitle section__subtitle--work">A Selection Of My Work</p>
+        <div class="portfolio">
+           <div class="portfolio-item">
+            <h3>Guessing Game</h3>
+            <p>Built a guessing game using , HTML, CSS and JavaScript. it allows players to try up to 10 ten times and gives them hints to the right answer</p>
+            <a href="https://gussing-game.vercel.app/">Link</a>
+           </div>
+           <div class="portfolio-item">
+            <h3> Advice Generator App</h3>
+            <p>Developed an advice generator app using API JS CSS and HTML. The web app present users with a selection of advices.</p>
+            <a href="https://advice-generator-app-beta-six.vercel.app/">Link</a>
+           </div>
+           <div class="portfolio-item">
+            <h3>Loopstudios Landing Page</h3>
+            <p>A landing page buillt with HTML CSS and Vanila JavaScript </p>
+            <a href="https://loopstudios-landing-page-ebon.vercel.app/">Link</a>
+           </div>
+           <div class="portfolio-item">
+            <h3>BMI Calculator </h3>
+            <p>Developed a user-friendly Body Mass Index (BMI) calculator that allows users to quickly determine their BMI based on height and weight inputs. The calculator provides instant feedback on whether the user falls within underweight, normal, overweight, or obese categories.</p>
+            <a href="https://bmi-calculator-sandy.vercel.app/">Link</a>
+           </div>
+           <div class="portfolio-item">
+            <h3>Color Picker </h3>
+            <p>A zoomed eyedropper & color chooser tool that allows you to select color values and gives them back as hex values.</p>
+            <a href="https://color-picker-orcin.vercel.app/">Link</a>
+           </div>
+           <div class="portfolio-item">
+            <h3>Tip Calculator</h3>
+            <p>The Tip Calculator calculates tip amount for various percentages of the cost of the service, and also provides a total amount that includes the tip.</p>
+            <a href="https://tip-calculator-blue-ten.vercel.app/">Link</a>
+           </div>
+        </div>
+    </section>
+
+
+    <!-- footer-->
+    <footer class="footer">
+        <ul class="social-list">
+            <li class="social-list__item"><a href="https://www.linkedin.com/in/eman-a-1668b1160" class="social-list__link"><i class="fa-brands fa-linkedin "></i> Linkedin</a></li>
+            <li class="social-list__item"><a href="https://github.com/EmanDevWorks" class="social-list__link"><i class="fa-brands fa-github "></i> Github </a></li> 
+           
+        </ul>
+        <p>Icons made by <a href="https://fontawesome.com">Font Awesome.</a> </p>
+        <p>Images used in this portfolio are courtesy of <a href="https://unsplash.com/photos/white-and-black-laptop-bs2Ba7t69mM?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash </a>. Photo credits to <a href="https://unsplash.com/@benkolde?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Ben Kolde</a>,  <a href="https://unsplash.com/@thomastastet?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Thomas Tastet</a>, and <a href="https://unsplash.com/@altumcode?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">AltumCode</a></p>
+    </footer>
+    
+    <script src="/js/index.js"></script>
+</body>
